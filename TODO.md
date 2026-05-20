@@ -1,8 +1,13 @@
-- [x] Update plan confirmed with user: keep charts user-friendly and compute Top 10 Countries + Top 10 Salespersons using the same filtered_df.
-- [x] Implement plot_top_countries(df) in dashboard/charts.py.
-- [x] Implement plot_top_salespersons(df) in dashboard/charts.py.
-- [x] Render the two new charts in app.py.
-- [x] (Optional) Make plot_monthly_trends use existing parsed Date from utils.py to better match notebook.
-- [ ] Run a quick Streamlit import check (python -c) to ensure no syntax/import errors (note: plotly may need install). 
+# TODO - Sales Dashboard Upgrade
 
+- [x] Repo understanding (done)
+- [x] Create `dashboard/insights.py` for auto-generated “Key Insights”
+- [x] Create `dashboard/forecast.py` with a baseline forecasting model + chart
+- [x] Create `dashboard/metrics.py` with real-world KPI computations + guardrails
+
+- [x] Improve Plotly charts with better hovertemplates (in `dashboard/charts.py`)
+- [x] Add UI polish in `app.py`: theme toggle, tabs/cards layout, and “Explain decisions” section
+
+- [ ] Update `requirements.txt` only if needed
+- [ ] Run `streamlit run app.py` and sanity-check all sections render
 
